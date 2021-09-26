@@ -1,0 +1,48 @@
+body {
+  font-family: Helvetica, "MS ゴシック", sans-serif;
+}
+.header {
+  width: 100%;
+  color: darkblue;
+  position: fixed;
+  display: flex;
+  align-items: center;
+}
+.ttl {
+  margin: 60px 60px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.menu {
+  display: flex;
+  font-weight: bold;
+  font-size: 14px;
+}
+li {
+  margin: 10px 20px;
+}
+nav {
+  margin: 0 0 0 auto;
+}
+h2 {
+  font-size: 50px;
+  position: absolute;
+  top: 430px;
+  left: 50px;
+  font-weight: lighter;
+}
+.background {
+  background-color: navy;
+  height: 150px;
+  width: 800px;
+  margin: 460px 40px;
+}
+.h2::after {
+  content: "";
+  position: absolute;
+  margin: -230px 0px 0px 200px;
+  background: url(../img/firstview.jpeg) no-repeat;
+  background-size: cover;
+  width: 550px;
+  height: 350px;
+}
